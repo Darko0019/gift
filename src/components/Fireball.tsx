@@ -20,4 +20,4 @@ export default function Fireball() {
   return <primitive ref={group} object={scene} />;
 }
 
-useGLTF.preload("/src/assets/models/fireball.glb");
+useGLTF.preload("@/assets/models/fireball.glb");
