@@ -36,31 +36,31 @@ type ItemDef = {
 
 const DEFAULT_IMAGES: ImageItem[] = [
   {
-    src: "/src/assets/memories/Memory1.jpg",
+    src: "/memories/Memory1.jpg",
     alt: "Memory 1",
   },
   {
-    src: "/src/assets/memories/Memory2.jpg",
+    src: "/memories/Memory2.jpg",
     alt: "Memory 2",
   },
   {
-    src: "/src/assets/memories/Memory3.jpg",
+    src: "/memories/Memory3.jpg",
     alt: "Memory 3",
   },
   {
-    src: "/src/assets/memories/Memory4.jpg",
+    src: "/memories/Memory4.jpg",
     alt: "Memory 4",
   },
   {
-    src: "/src/assets/memories/Memory5.jpg",
+    src: "/memories/Memory5.jpg",
     alt: "Memory 5",
   },
   {
-    src: "/src/assets/memories/Memory6.jpg",
+    src: "/memories/Memory6.jpg",
     alt: "Memory 6",
   },
   {
-    src: "/src/assets/memories/Memory7.jpg",
+    src: "/memories/Memory7.jpg",
     alt: "Memory 7",
   },
 ];
