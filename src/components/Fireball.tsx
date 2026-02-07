@@ -4,7 +4,7 @@ import { Group } from "three";
 
 export default function Fireball() {
   const group = useRef<Group>(null);
-  const { scene, animations } = useGLTF("@/assets/models/fireball.glb");
+  const { scene, animations } = useGLTF("/models/fireball.glb");
   const { actions } = useAnimations(animations, group);
 
   useEffect(() => {
@@ -20,4 +20,4 @@ export default function Fireball() {
   return <primitive ref={group} object={scene} />;
 }
 
-useGLTF.preload("@/assets/models/fireball.glb");
+useGLTF.preload("/models/fireball.glb");
